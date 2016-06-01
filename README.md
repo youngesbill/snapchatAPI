@@ -11,8 +11,7 @@ See the doc pdf for all the details.
 
 To have a free trial please send email to youngesbilld@gmail.com
 
-Younges Bill. 
-
+Younges Bill,
 See you on Snapchat.
 
 License
