@@ -7,12 +7,12 @@ You can use it to:
   - Add some people
   - Create a third app on the App Store or Play Store
 
-See the doc pdf for all the details.
+See the doc pdf for all the details
 
 To have a free trial please send email to youngesbilld@gmail.com
 
 Younges Bill,
-See you on Snapchat.
+See you on Snapchat
 
 License
 ----
