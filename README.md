@@ -7,7 +7,7 @@ You can use it to:
   - Add some people
   - Create a third app on the App Store or Play Store
 
-See the doc pdf for all the details.
+See the doc pdf for all the details of this API.
 
 To activate your free trial please send email to youngesbilld@gmail.com
 
