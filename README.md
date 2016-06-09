@@ -11,7 +11,7 @@ See the doc pdf for all the details of this API.
 
 To activate your free trial please send email to youngesbilld@gmail.com
 
-Younges Bill,
+Younges Bill!
 
 See you on Snapchat
 
