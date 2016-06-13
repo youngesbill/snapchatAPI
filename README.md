@@ -8,12 +8,14 @@ You can use it to:
   - Create a third app on the App Store or Play Store
 
 See the doc pdf for all the details of this API.
-
 To activate your free trial please send email to youngesbilld@gmail.com
 
 Younges Bill!
 
-See you on Snapchat
+See you on Snapchat.
+
+Review : 
+"Best API EVER, thanks Bill."
 
 License
 ----
