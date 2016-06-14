@@ -129,7 +129,6 @@ class Snapchat():
 			r = requests.post(self.uri + endpoint, data=data, files=files, headers=headers, verify=False, proxies = self.proxies)
 		else:
 			r = requests.get(self.uri + endpoint, params=data, files=files, headers=headers, verify=False, proxies = self.proxies)
-
 		if r.status_code in [200, 201, 202]:
 			if endpoint == "/bq/upload":
 				return {
@@ -183,7 +182,6 @@ class Snapchat():
 						'timestamp': r_tokens['timestamp']
 					}
 					self.tokens[ep] = endpoint_info 
-
 				headers.update(self.tokens[endpoint]['headers'])
 			else:
 				endpoint_info = {
@@ -199,7 +197,6 @@ class Snapchat():
 			"Accept-Locale": "en_US",
 			"Accept": "*/*"
 		})
-
 		data['timestamp'] = self.tokens[endpoint]['timestamp']
 
 		if endpoint == '/loq/login':
