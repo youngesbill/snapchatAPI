@@ -8,6 +8,9 @@ You can use it to:
   - Create a third app on the App Store or Play Store
   - Send snaps to multiple people
   - watch stories whitout people knowing
+  - Create a third app on the App Store or Play Store
+  - Send snaps to multiple people
+  - watch stories whitout people knowing
 
 See the doc pdf for all the details of this API.
 To activate your free trial please send email to youngesbilld@gmail.com
