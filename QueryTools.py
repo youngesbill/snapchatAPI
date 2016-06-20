@@ -17,19 +17,23 @@ class QueryTools():
 		self.username = username
 		self.password = password
 
+
 	def pad(self, s):
 	    remainder = (len(s) % 16)
 	    return s + chr(16 - remainder) * (16 - remainder)
+
 
 	def unpad(self, s):
 	    for i in ['\x0a', '\x0b', '\x0c', '\x0d', '\x0e', '\x0f', '\x00', '\x01', '\x02', '\x03', '\x04', '\x05', '\x06', '\x07', '\x08', '\x09', '\n']:
 	        s = s.replace(i, '')
 	    return s
 
+	# To encrypt
 	def encryption(self, s):
 		padded = self.pad(s)
 		return b64encode(Crypto.Cipher.AES.new(self.privateKey, Crypto.Cipher.AES.MODE_CBC, "\x00" * 16).encrypt(padded.encode('utf8')))
 
+	# To decrypt
 	def decryption(self, s):
 		return self.unpad(Crypto.Cipher.AES.new(self.privateKey, Crypto.Cipher.AES.MODE_CBC, "\x00" * 16).decrypt(b64decode(s)))
 
