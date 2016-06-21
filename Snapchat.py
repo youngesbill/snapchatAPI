@@ -504,31 +504,3 @@ class Snapchat():
 				snaps.append(snap)
 
 		return snaps
-
-	# Send an event to a user
-	def send_events(self, events, data=None):
-		if data is None:
-			data = {}
-
-		params = {
-			'events': json.dumps(events),
-			'json': json.dumps(data),
-			'username': self.username
-		}
-		return self.request('/bq/update_snaps', auth_token=self.auth_token, data=params)
-
-	# Mark a snap video as viewed
-	def mark_viewed(self, snap_id, view_duration=1):
-		now = time.time() * 1000
-		data = {snap_id: {u't': now, u'sv': view_duration}}
-		events = [
-			{
-				u'eventName': u'SNAP_VIEW', u'params': {u'id': snap_id},
-				u'ts': int(round(now)) - view_duration
-			},
-			{
-				u'eventName': u'SNAP_EXPIRED', u'params': {u'id': snap_id},
-				u'ts': int(round(now))
-			}
-		]
-		return self.send_events(events, data)

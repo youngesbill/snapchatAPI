@@ -1,6 +1,7 @@
 # Snapchat API with ALL endpoints
 Full Snapchat API using a new and complex tweak.
 
+If you have any question, don't hesitate to email me : youngesbilld@gmail.com
 
 You can use it to:
   - Create snapchat bots 

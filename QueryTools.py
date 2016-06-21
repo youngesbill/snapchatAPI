@@ -60,7 +60,6 @@ class QueryTools():
 				'status_code': 500
 			}
 
-	# Check the user, it has to be done in order to perform other queries than endpoint = '/loq/login'
 	def checkUser(self, rlogin):
 		data = {
 				'data': json.dumps(rlogin),
