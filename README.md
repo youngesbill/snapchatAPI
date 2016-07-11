@@ -4,11 +4,10 @@ Full Snapchat API using a new and complex tweak.
 If you have any question, don't hesitate to email me : youngesbilld@gmail.com
 
 You can use it to:
-  - Create snapchat bots 
-  - Add some people
+  - Create Snapchat bots 
+  - Add some people 
   - Create a third app on the App Store or Play Store
   - Send snaps to multiple people
-  - watch stories whitout people knowing
   - Create a third app on the App Store or Play Store
   - Send snaps to multiple people
   - watch stories whitout people knowing
